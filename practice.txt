@@ -1,0 +1,25 @@
+TCP/ip => it make sure the messages reach the destination safely and in the right order
+socket => mail boxes of internet(TCP): they let us send and recieve data
+Client-server model => Client req something and server gives the req
+
+
+Rules :
+    Http
+    FTP,
+    SMTP etc 
+
+Address :
+    its the unique address of the client and server
+
+ports :
+    ports are the services provided in that server 
+
+
+Rust toolbox for networking:
+    - Standard library (std::net) -> helps to handle TCP and UDP socket, IP addresses, ports, 
+    - TOKIO -> use for sync application 
+    - HYPER -> use to create http client and server 
+    - Other websocket libraries -> for real time appilication 
+    - libraries for database (Diesel, SQLx and Rusquilte) -> for dealing with database 
+
+
